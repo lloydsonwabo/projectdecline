@@ -1,0 +1,120 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#promo{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/head.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:991px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#promo .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+.site-section h1{
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+.site-section{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#0e0e0e;
+}
+
+#why .item i{
+  font-size:42px;
+  color:#cf9b9b;
+}
+
+#why .item h2{
+  font-weight:normal;
+  margin-top:13px;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+#why .item{
+  padding-top:36px;
+}
+
+.dark-section{
+  background-color:rgb(232,241,247);
+}
+
+#logo{
+  max-height:55px;
+  margin-right:20px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+#logo2{
+  max-height:145px;
+  margin-right:100px;
+  margin-top:2px;
+  display:inline-block;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  
+
+}
+.vision {
+  text-align: justify;
+  text-justify:inter-word;
+  font-family: 'Alice'; font-size: 18px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.container h1{
+
+   font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+
+}
+
+#linkref {
+
+  
+  text-decoration: none;
+  
+
+}
+
+a#linkref:hover, a#linkref:active {
+  
+  border-bottom:3px solid blue;
+}
+
+
